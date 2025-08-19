@@ -36,7 +36,7 @@ The complete pipeline includes data preprocessing, feature extraction, model tra
 | shapely      | Geometry processing                                  |
 | joblib       | Model persistence (save/load)                        |
 
-🚀 Workflow:graph TD
+🚀 Workflow:
 A[🎯 Define Objective] --> B[🛰️ Load Hyperspectral Image]
 B --> C[📉 Preprocess & Handle Nodata]
 C --> D[🧭 Digitize Training Points in QGIS]
